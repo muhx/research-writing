@@ -8,7 +8,7 @@ In academia, prompt engineering is becoming a "hidden resource". Top research gr
 
 ## 🎯 What We Did
 
-We surveyed researchers at leading institutions such as [**MSRA**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/), [**Seed**](https://seed.bytedance.com/zh/) and [**SH AI Lab**](https://www.shlab.org.cn/), as well as master's and PhD students at **Peking University**, **USTC** and **SJTU**, and open-sourced the writing techniques they use every day:
+We surveyed researchers at leading institutions such as [**MSRA**](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/?lang=zh-cn), [**Seed**](https://seed.bytedance.com/zh/) and [**SH AI Lab**](https://www.shlab.org.cn/), as well as master's and PhD students at **Peking University**, **USTC** and **SJTU**, and open-sourced the writing techniques they use every day:
 
 - **📝 Prompt Template Library**: Practical prompts for translation, polishing, analysis and other scenarios
 - **🤖 Agent Skills**: Agent skills can help with writing much more powerfully, but they have a learning curve. We provide practical tutorials and extract the core writing-related skills so you can get started quickly.
@@ -807,7 +807,7 @@ Please analyze the PDF attachment I uploaded. I plan to submit to [enter your ta
 ---
 
 ## Model Selection
-We obtained the models and specific versions ranked highest in the Creative Writing category from the public website [arena.ai](https://arena.ai/zh/leaderboard/text/creative-writing). This leaderboard result aligns closely with the everyday choices of our surveyed group.
+We obtained the models and specific versions ranked highest in the Creative Writing category from the public website [arena.ai](https://arena.ai/leaderboard/chat/text/creative-writing). This leaderboard result aligns closely with the everyday choices of our surveyed group.
 
 Unlike earlier this year, Claude models now have a clear edge in language expression and polishing. With a generous budget, we recommend Claude Fable 5, as well as Opus 4.6 and 4.7. For a balance of cost-effectiveness, you can use Gemini-3.7-flash. If access to overseas services is restricted or your budget is limited, we recommend qwen3.8-max. We do not recommend GPT models: their language expression tends to be stiff, and their cost-effectiveness is also low.
 

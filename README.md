@@ -823,7 +823,7 @@ Unlike earlier this year, Claude models now have a clear edge in language expres
 
 ## Skills Setup
 
-The demonstrations below are based on the **OpenSkills** ecosystem. It provides a **general-purpose way to load and manage Skills**, allowing AI coding agents such as Cursor to read and use skill packages centered on `SKILL.md`. References: [Cursor Agent Skills](https://cursor.com/docs/context/skills), [openskills](https://github.com/numman-ali/openskills)
+The demonstrations below are based on the **OpenSkills** ecosystem. It provides a **general-purpose way to load and manage Skills**, allowing AI coding agents such as Cursor to read and use skill packages centered on `SKILL.md`. References: [Cursor Agent Skills](https://cursor.com/docs/skills), [openskills](https://github.com/numman-ali/openskills)
 
 ### 1) Prerequisites
 
@@ -853,8 +853,8 @@ OpenSkills can install Skills directly from GitHub repositories and place them i
 Below are examples of installing Skills from two upstream repositories:
 
 ```bash
-# Research-related: zechenzhangAGI/AI-research-SKILLs
-npx openskills install zechenzhangAGI/AI-research-SKILLs
+# Research-related: Orchestra-Research/AI-Research-SKILLs
+npx openskills install Orchestra-Research/AI-Research-SKILLs
 
 # Anthropic official skills
 npx openskills install anthropics/skills
@@ -879,7 +879,7 @@ After configuration, there is no need to remember complex prompts. Simply state 
 
 | Skill name | Source | Brief description |
 |------------|--------|-------------------|
-| **20-ml-paper-writing** | [zechenzhangAGI/AI-research-SKILLs](https://github.com/zechenzhangAGI/AI-research-SKILLs) | Complete paper writing for NeurIPS / ICML / ICLR / ACL / AAAI / COLM: from drafting based on a repo, LaTeX templates, citation verification, reviewer perspective, conference checklists, to format migration. Includes booktabs table conventions and figure conventions (vector graphics, captions, colorblind-friendly design, etc.). |
+| **20-ml-paper-writing** | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | Complete paper writing for NeurIPS / ICML / ICLR / ACL / AAAI / COLM: from drafting based on a repo, LaTeX templates, citation verification, reviewer perspective, conference checklists, to format migration. Includes booktabs table conventions and figure conventions (vector graphics, captions, colorblind-friendly design, etc.). |
 | **humanizer** | [blader/humanizer](https://github.com/blader/humanizer) | Identifies and removes traces of AI writing to make text more natural and human-like. Based on Wikipedia's "Signs of AI writing": overemphasis on significance, promotional tone, empty -ing analysis, vague attribution, overuse of em dashes, triplet stacking, high-frequency AI words, negative parallelisms, etc. It also injects a "human touch": having opinions, varying rhythm, acknowledging uncertainty, and using "I" where appropriate. Suitable for checking the language style of a polished final draft or a manuscript before submission. |
 | **docx** | [anthropics/skills](https://github.com/anthropics/skills) | Create, edit and analyze .docx files. Supports: reading body text by converting to Markdown with pandoc; editing existing documents with the Document library or OOXML; a redlining workflow for review-style edits with tracked changes. **Paper scenario**: given a Word submission template for a journal or conference, replace placeholder content such as title, authors, abstract and body text in the template to produce a submission that conforms to the format. It can also suggest revisions to others' documents (tracked changes). |
 | **doc-coauthoring** | [anthropics/skills](https://github.com/anthropics/skills) | Staged document collaboration: gather context and clarifying questions → brainstorm, draft and refine section by section → reader testing to find blind spots. Suitable for iterative structured work on a single section or a whole paper. |
